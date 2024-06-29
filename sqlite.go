@@ -2,7 +2,7 @@ package sqlite
 
 import (
 	"fmt"
-	"github.com/0xJacky/cosy/settings"
+	"git.uozi.org/uozi/cosy/settings"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"path"
