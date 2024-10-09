@@ -1,23 +1,30 @@
 package sqlite
 
 import (
-	"github.com/uozi-tech/cosy/settings"
-	"gorm.io/driver/sqlite"
-	"testing"
+    "gorm.io/driver/sqlite"
+    "testing"
 )
 
+type DataBase struct {
+    Name string
+}
+
+func (d *DataBase) GetName() string {
+    return d.Name
+}
+
 func TestOpen(t *testing.T) {
-	dbs := &settings.DataBase{
-		Name: "cosy",
-	}
+    dbs := &DataBase{
+        Name: "cosy",
+    }
 
-	dialector := Open("", dbs)
+    dialector := Open("", dbs)
 
-	d, ok := dialector.(*sqlite.Dialector)
-	if !ok {
-		t.Fatal("dialector is not *Dialector")
-	}
-	if d.DSN == "" {
-		t.Error("dialector.DSN is empty")
-	}
+    d, ok := dialector.(*sqlite.Dialector)
+    if !ok {
+        t.Fatal("dialector is not *Dialector")
+    }
+    if d.DSN == "" {
+        t.Error("dialector.DSN is empty")
+    }
 }
