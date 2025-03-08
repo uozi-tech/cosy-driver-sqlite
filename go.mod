@@ -1,9 +1,9 @@
 module github.com/uozi-tech/cosy-driver-sqlite
 
-go 1.23.5
+go 1.24.1
 
 require (
-	github.com/uozi-tech/cosy v1.14.5
+	github.com/uozi-tech/cosy v1.15.4
 	gorm.io/driver/sqlite v1.5.7
 	gorm.io/gorm v1.25.12
 )
