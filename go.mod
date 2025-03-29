@@ -3,7 +3,7 @@ module github.com/uozi-tech/cosy-driver-sqlite
 go 1.24.1
 
 require (
-	github.com/uozi-tech/cosy v1.15.5
+	github.com/uozi-tech/cosy v1.17.0
 	gorm.io/driver/sqlite v1.5.7
 	gorm.io/gorm v1.25.12
 )
