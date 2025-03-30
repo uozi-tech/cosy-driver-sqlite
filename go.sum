@@ -17,6 +17,7 @@ github.com/uozi-tech/cosy v1.6.2/go.mod h1:WPF1eOK74GwuB2DUkrLc+YlTBi/5w+wvkrT3l
 github.com/uozi-tech/cosy v1.14.3/go.mod h1:DSKLtoVaGLUlJ8KiQ1vWEsnv85epRrAAMXSijuq+asM=
 github.com/uozi-tech/cosy v1.14.5/go.mod h1:KWo+XpzLiO3EUWJkXT7ca4nxX+vDVH0eB0B1BrOBkqg=
 github.com/uozi-tech/cosy v1.15.5/go.mod h1:b6VfiTeaIzMOKeUdjGz6cC2Nu3hnPLJfHsLe8zmfjvE=
+github.com/uozi-tech/cosy v1.17.0/go.mod h1:jEyznv+lmbb0YO0gU//yn4PnyqncTlyV2H5BpDa5aEw=
 golang.org/x/text v0.19.0 h1:kTxAhCbGbxhK0IwgSKiMO5awPoDQ0RpfiVYBfK860YM=
 golang.org/x/text v0.19.0/go.mod h1:BuEKDfySbSR4drPmRPG/7iBdf8hvFMuRexcpahXilzY=
 golang.org/x/text v0.21.0 h1:zyQAAkrwaneQ066sspRyJaG9VNi/YJ1NfzcGB3hZ/qo=
