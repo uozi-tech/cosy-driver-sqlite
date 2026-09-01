@@ -5,7 +5,7 @@ go 1.24.1
 require (
 	github.com/uozi-tech/cosy v1.17.0
 	gorm.io/driver/sqlite v1.6.0
-	gorm.io/gorm v1.30.0
+	gorm.io/gorm v1.31.2
 )
 
 require (
